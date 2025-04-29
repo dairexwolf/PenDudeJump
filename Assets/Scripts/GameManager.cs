@@ -7,8 +7,8 @@ public class GameManager : MonoBehaviour
     private int score = 0;
     private int genScore = 0;
 
-    public SceneGenerator sceneGen;
-    public PlayerManager playerMg;
+    [SerializeField] private SceneGenerator sceneGen;
+    [SerializeField] private PlayerManager playerMg;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -23,9 +23,9 @@ public class GameManager : MonoBehaviour
 
     }
 
-    private void GenerateEnviroment()
+    public void GenerateEnviroment(float up, bool moveTriggers)
     {
-        sceneGen.Generate(10f);
+        sceneGen.Generate(up, moveTriggers);
     }
 
     public int GetScore()

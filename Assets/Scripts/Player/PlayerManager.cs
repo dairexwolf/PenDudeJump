@@ -63,6 +63,11 @@ public class PlayerManager : MonoBehaviour
                 gm.AddToScore((int)transform.position.y + 5);
             }
         }
+
+        if (col.gameObject.name == "GenerationTrigger")
+        {
+            gm.GenerateEnviroment(col.transform.position.y+5, true);
+        }
     }
 
     #endregion
