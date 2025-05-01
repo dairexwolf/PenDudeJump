@@ -146,101 +146,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: clouds and black hole_0
+      name: black hole_1
       rect:
         serializedVersion: 2
-        x: 73
-        y: 1540
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 69bf987f146efe8c0800000000000000
-      internalID: -3967699575689839722
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clouds and black hole_1
-      rect:
-        serializedVersion: 2
-        x: 75
-        y: 1452
-        width: 561
-        height: 254
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d184123f8124df1e0800000000000000
-      internalID: -2162499571142277091
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clouds and black hole_2
-      rect:
-        serializedVersion: 2
-        x: 709
-        y: 1357
-        width: 333
-        height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3008d2ef6491d0ca0800000000000000
-      internalID: -6049150931785908221
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clouds and black hole_3
-      rect:
-        serializedVersion: 2
-        x: 1071
-        y: 1505
-        width: 324
-        height: 156
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 024b9199101a9e030800000000000000
-      internalID: 3524525211629761568
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clouds and black hole_4
-      rect:
-        serializedVersion: 2
-        x: 175
-        y: 1415
-        width: 38
-        height: 8
+        x: 0
+        y: 704
+        width: 704
+        height: 704
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -256,35 +168,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: clouds and black hole_5
+      name: black hole_2
       rect:
         serializedVersion: 2
-        x: 207
-        y: 1403
-        width: 57
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 025c617bb2d4199d0800000000000000
-      internalID: -2769347445705489120
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clouds and black hole_6
-      rect:
-        serializedVersion: 2
-        x: 422
-        y: 1351
-        width: 107
-        height: 37
+        x: 702
+        y: 704
+        width: 704
+        height: 704
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -300,111 +190,45 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: clouds and black hole_7
+      name: black hole_3
       rect:
         serializedVersion: 2
-        x: 22
-        y: 854
-        width: 670
-        height: 383
+        x: 0
+        y: 0
+        width: 704
+        height: 704
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 393bdc12012dc7380800000000000000
-      internalID: -8972065390900431981
+      spriteID: f54b1e155e4f36744bbd53b9a5394f53
+      internalID: -748979368
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: clouds and black hole_8
+      name: black hole_4
       rect:
         serializedVersion: 2
-        x: 752
-        y: 818
-        width: 643
-        height: 424
+        x: 704
+        y: 0
+        width: 704
+        height: 704
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2340813d4fd9afa80800000000000000
-      internalID: -8432253677458684878
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clouds and black hole_9
-      rect:
-        serializedVersion: 2
-        x: 801
-        y: 817
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: de7342b14ed03dd50800000000000000
-      internalID: 6760762738972309485
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clouds and black hole_10
-      rect:
-        serializedVersion: 2
-        x: 109
-        y: 105
-        width: 588
-        height: 400
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b029ecd138320c3f0800000000000000
-      internalID: -882666480916852213
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clouds and black hole_11
-      rect:
-        serializedVersion: 2
-        x: 835
-        y: 81
-        width: 524
-        height: 464
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 70a6f166d5e2d5250800000000000000
-      internalID: 5934950862624352775
+      spriteID: e73f36046b97b6c47a6fb1289000270f
+      internalID: 1963296834
       vertices: []
       indices: 
       edges: []
@@ -413,7 +237,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 4a0bb8b68ce78cd4e86a60eb327517fe
     internalID: 0
     vertices: []
     indices: 
@@ -423,15 +247,23 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      clouds and black hole_0: -3967699575689839722
+      black hole_1: -751855174529486468
+      black hole_2: 3955552214378187865
+      black hole_3: -748979368
+      black hole_4: 1963296834
+      clouds _0: -3967699575689839722
       clouds and black hole_1: -2162499571142277091
       clouds and black hole_10: -882666480916852213
       clouds and black hole_11: 5934950862624352775
+      clouds and black hole_13: 2075522423
+      clouds and black hole_15: -944095009
+      clouds and black hole_16: -2008132758
+      clouds and black hole_17: -1200645998
+      clouds and black hole_18: -891974322
+      clouds and black hole_19: -531414584
       clouds and black hole_2: -6049150931785908221
       clouds and black hole_3: 3524525211629761568
-      clouds and black hole_4: -751855174529486468
       clouds and black hole_5: -2769347445705489120
-      clouds and black hole_6: 3955552214378187865
       clouds and black hole_7: -8972065390900431981
       clouds and black hole_8: -8432253677458684878
       clouds and black hole_9: 6760762738972309485

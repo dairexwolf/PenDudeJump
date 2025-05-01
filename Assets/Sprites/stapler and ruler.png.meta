@@ -140,10 +140,10 @@ TextureImporter:
       name: stapler and ruler_0
       rect:
         serializedVersion: 2
-        x: 39
-        y: 1413
-        width: 601
-        height: 237
+        x: 0
+        y: 1408
+        width: 704
+        height: 352
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -159,35 +159,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stapler and ruler_1
-      rect:
-        serializedVersion: 2
-        x: 86
-        y: 1577
-        width: 14
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: eb1b35602671c1ca0800000000000000
-      internalID: -6044930890057666114
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: stapler and ruler_2
       rect:
         serializedVersion: 2
-        x: 789
-        y: 1428
-        width: 546
-        height: 317
+        x: 704
+        y: 1408
+        width: 704
+        height: 352
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,35 +181,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stapler and ruler_3
-      rect:
-        serializedVersion: 2
-        x: 656
-        y: 1462
-        width: 19
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 616189eb61139d120800000000000000
-      internalID: 2439034646954513942
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: stapler and ruler_4
       rect:
         serializedVersion: 2
-        x: 624
-        y: 1414
-        width: 13
-        height: 14
+        x: 0
+        y: 1056
+        width: 704
+        height: 352
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,35 +203,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stapler and ruler_5
-      rect:
-        serializedVersion: 2
-        x: 69
-        y: 1050
-        width: 583
-        height: 227
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 118647427a4f21bd0800000000000000
-      internalID: -2660795431114217455
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: stapler and ruler_6
       rect:
         serializedVersion: 2
-        x: 752
-        y: 1155
-        width: 513
-        height: 117
+        x: 704
+        y: 1056
+        width: 704
+        height: 352
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -291,35 +225,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stapler and ruler_7
-      rect:
-        serializedVersion: 2
-        x: 41
-        y: 801
-        width: 523
-        height: 87
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 23532fdf9c7cb3d90800000000000000
-      internalID: -7116875115766074062
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: stapler and ruler_8
       rect:
         serializedVersion: 2
-        x: 791
-        y: 790
-        width: 506
-        height: 150
+        x: 0
+        y: 704
+        width: 704
+        height: 352
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -334,11 +246,33 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: stapler and ruler_10
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 704
+        width: 704
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0426f84cbf9c7334795f7dee5482c262
+      internalID: 771856653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 2ac43f5aec33ac74e9e6ce1d0df05ba1
     internalID: 0
     vertices: []
     indices: 
@@ -350,6 +284,8 @@ TextureImporter:
     nameFileIdTable:
       stapler and ruler_0: -3818910097384613987
       stapler and ruler_1: -6044930890057666114
+      stapler and ruler_10: 771856653
+      stapler and ruler_11: 1055897141
       stapler and ruler_2: 9094983851934012479
       stapler and ruler_3: 2439034646954513942
       stapler and ruler_4: -8030962490667366690
@@ -357,6 +293,7 @@ TextureImporter:
       stapler and ruler_6: 6369387975774348614
       stapler and ruler_7: -7116875115766074062
       stapler and ruler_8: -4546953691300160958
+      stapler and ruler_9: -1590527289
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

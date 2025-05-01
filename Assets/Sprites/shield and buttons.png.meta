@@ -179,10 +179,10 @@ TextureImporter:
       name: shield and buttons_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 1556
-        width: 332
-        height: 118
+        x: 0
+        y: 1408
+        width: 352
+        height: 352
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -201,10 +201,10 @@ TextureImporter:
       name: shield and buttons_1
       rect:
         serializedVersion: 2
-        x: 362
-        y: 1556
-        width: 335
-        height: 169
+        x: 352
+        y: 1408
+        width: 352
+        height: 352
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -223,10 +223,10 @@ TextureImporter:
       name: shield and buttons_2
       rect:
         serializedVersion: 2
-        x: 760
-        y: 1585
-        width: 45
-        height: 71
+        x: 704
+        y: 1408
+        width: 704
+        height: 352
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,35 +242,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shield and buttons_3
-      rect:
-        serializedVersion: 2
-        x: 826
-        y: 1587
-        width: 478
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 63bb4724a73fbdb70800000000000000
-      internalID: 8924994792991275830
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: shield and buttons_4
       rect:
         serializedVersion: 2
-        x: 1547
-        y: 1562
-        width: 85
-        height: 90
+        x: 1408
+        y: 1408
+        width: 352
+        height: 352
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -289,10 +267,10 @@ TextureImporter:
       name: shield and buttons_5
       rect:
         serializedVersion: 2
-        x: 244
-        y: 1500
-        width: 88
-        height: 19
+        x: 0
+        y: 1056
+        width: 704
+        height: 352
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -308,35 +286,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shield and buttons_6
-      rect:
-        serializedVersion: 2
-        x: 330
-        y: 1514
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 97cf69d29cc26bcd0800000000000000
-      internalID: -2542795697039147911
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: shield and buttons_7
       rect:
         serializedVersion: 2
-        x: 17
-        y: 1275
-        width: 28
-        height: 38
+        x: 704
+        y: 1056
+        width: 352
+        height: 352
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -352,57 +308,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shield and buttons_8
-      rect:
-        serializedVersion: 2
-        x: 34
-        y: 1309
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dee389dce800eb560800000000000000
-      internalID: 7331297856740409069
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield and buttons_9
-      rect:
-        serializedVersion: 2
-        x: 126
-        y: 1114
-        width: 458
-        height: 217
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e2b8490f905168160800000000000000
-      internalID: 7027327400993393454
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: shield and buttons_10
       rect:
         serializedVersion: 2
-        x: 1219
-        y: 746
-        width: 403
-        height: 625
+        x: 0
+        y: 704
+        width: 352
+        height: 352
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -421,10 +333,10 @@ TextureImporter:
       name: shield and buttons_11
       rect:
         serializedVersion: 2
-        x: 27
-        y: 1280
-        width: 7
-        height: 6
+        x: 352
+        y: 704
+        width: 352
+        height: 352
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -443,10 +355,10 @@ TextureImporter:
       name: shield and buttons_12
       rect:
         serializedVersion: 2
-        x: 29
-        y: 1274
-        width: 14
-        height: 14
+        x: 704
+        y: 704
+        width: 352
+        height: 352
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -465,10 +377,10 @@ TextureImporter:
       name: shield and buttons_13
       rect:
         serializedVersion: 2
-        x: 699
-        y: 1184
-        width: 228
-        height: 114
+        x: 1056
+        y: 704
+        width: 704
+        height: 704
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -484,35 +396,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shield and buttons_14
-      rect:
-        serializedVersion: 2
-        x: 24
-        y: 1263
-        width: 19
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0768cedcc304f5370800000000000000
-      internalID: 8313434067046270576
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: shield and buttons_15
       rect:
         serializedVersion: 2
-        x: 27
-        y: 1141
-        width: 17
-        height: 36
+        x: 0
+        y: 352
+        width: 352
+        height: 352
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -531,10 +421,10 @@ TextureImporter:
       name: shield and buttons_16
       rect:
         serializedVersion: 2
-        x: 96
-        y: 814
-        width: 120
-        height: 113
+        x: 1408
+        y: 352
+        width: 352
+        height: 352
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -553,10 +443,10 @@ TextureImporter:
       name: shield and buttons_17
       rect:
         serializedVersion: 2
-        x: 447
-        y: 822
-        width: 120
-        height: 114
+        x: 0
+        y: 0
+        width: 352
+        height: 352
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -571,99 +461,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: shield and buttons_18
-      rect:
-        serializedVersion: 2
-        x: 819
-        y: 824
-        width: 120
-        height: 113
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 72e9a7810e5aab9b0800000000000000
-      internalID: -5063552449122755033
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield and buttons_19
-      rect:
-        serializedVersion: 2
-        x: 105
-        y: 471
-        width: 119
-        height: 114
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e5215fcd9c3242980800000000000000
-      internalID: -8564681241449393570
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield and buttons_20
-      rect:
-        serializedVersion: 2
-        x: 1465
-        y: 391
-        width: 235
-        height: 260
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0157180f939ce7690800000000000000
-      internalID: -7602417870269483760
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shield and buttons_21
-      rect:
-        serializedVersion: 2
-        x: 106
-        y: 123
-        width: 120
-        height: 114
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fb93dba94151fe010800000000000000
-      internalID: 1220217202280315327
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 7674b1d529a2e3b448f62adb4a773c19
     internalID: 0
     vertices: []
     indices: 
@@ -683,11 +485,7 @@ TextureImporter:
       shield and buttons_15: 3340312563587757053
       shield and buttons_16: 6176170937408331506
       shield and buttons_17: -844238954000461892
-      shield and buttons_18: -5063552449122755033
-      shield and buttons_19: -8564681241449393570
       shield and buttons_2: -5758423753598046895
-      shield and buttons_20: -7602417870269483760
-      shield and buttons_21: 1220217202280315327
       shield and buttons_3: 8924994792991275830
       shield and buttons_4: -1599163401542005814
       shield and buttons_5: -9019922434667569556
