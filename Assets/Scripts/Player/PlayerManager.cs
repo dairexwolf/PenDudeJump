@@ -8,12 +8,12 @@ public class PlayerManager : MonoBehaviour
 {
 
     [Header("Jump Settings")]
-    [SerializeField] private float force = 10f;             // Прыжок персонажа
+    [SerializeField] public float force = 10f;             // Прыжок персонажа
     [SerializeField] private float gravityMax = 10f;        // Максимальная тяга вниз
 
     [SerializeField] Transform cameraTransform;
 
-    private Vector2 curVel;                                 // Текущая скорость
+    public Vector2 curVel;                                 // Текущая скорость
     private Vector2 down;                                   // Максимальная скорость
 
     private GameManager gm;
@@ -65,12 +65,18 @@ public class PlayerManager : MonoBehaviour
     {
         if (col.gameObject.tag == "Platform" && curVel.y < 0)
         {
-            curVel.y = force;
+            // curVel.y = force;
+            IPlatform platform = col.gameObject.GetComponent<IPlatform>();
+            // Если платформа реализует интерфейс — вызываем метод
+            if (platform != null)
+            {
+                platform.AtTouch(this);
+            }
         }
 
         if (col.gameObject.name == "GenerationTrigger")
         {
-            gm.GenerateEnvironment(col.transform.position.y+5, true);
+            gm.GenerateEnvironment(col.transform.position.y + 5, true);
         }
     }
 
@@ -82,7 +88,7 @@ public class PlayerManager : MonoBehaviour
         {
             gm.GameOver();
             gameOver = true;
-            this.transform.Translate(Vector2.down* 10);
+            this.transform.Translate(Vector2.down * 10);
         }
     }
 
