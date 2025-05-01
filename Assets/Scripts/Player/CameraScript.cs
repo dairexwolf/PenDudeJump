@@ -4,6 +4,7 @@ public class CameraScript : MonoBehaviour
 {
     [SerializeField] GameObject player;
     [SerializeField] GameManager gameManager;
+    [SerializeField] GameObject deleteTrigger;
 
     private PlayerManager pm;
 
@@ -22,6 +23,7 @@ public class CameraScript : MonoBehaviour
             {
                 gameManager.AddToScore(1);
             }
+            deleteTrigger.transform.Translate(pm.GetCurrentVelocity() * Time.deltaTime);
         }
     }
 }

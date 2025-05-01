@@ -9,21 +9,9 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private SceneGenerator sceneGen;
     [SerializeField] private PlayerManager playerMg;
+    [SerializeField] private GameObject gameOverMessage;
 
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
-    public void GenerateEnviroment(float up, bool moveTriggers)
+    public void GenerateEnvironment(float up, bool moveTriggers)
     {
         sceneGen.Generate(up, moveTriggers);
     }
@@ -33,7 +21,10 @@ public class GameManager : MonoBehaviour
         return score;
     }
 
-
+    public void GameOver()
+    {
+        gameOverMessage.SetActive(true);
+    }
 
     public void AddToScore(int i)
     {

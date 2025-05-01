@@ -18,9 +18,12 @@ public class PlayerManager : MonoBehaviour
 
     private GameManager gm;
 
+    bool gameOver;
+
     void Awake()
     {
         gm = GameObject.Find("GameManager").GetComponent<GameManager>();
+        gameOver = false;
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -33,10 +36,13 @@ public class PlayerManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // Активируем прыжок и падение
-        JumpAndFall();
-        // Активируем проверку на то, чтобы перс всегда был в экране 
-        ReplaceBack();
+        if (!gameOver)
+        {
+            // Активируем прыжок и падение
+            JumpAndFall();
+            // Активируем проверку на то, чтобы перс всегда был в экране 
+            ReplaceBack();
+        }
     }
 
     #region JumpAdnFall
@@ -60,19 +66,25 @@ public class PlayerManager : MonoBehaviour
         if (col.gameObject.tag == "Platform" && curVel.y < 0)
         {
             curVel.y = force;
-            //if (this.transform.position.y > cameraTransform.position.y-1f)
-            //{
-            //    gm.AddToScore((int)transform.position.y);
-            //}
         }
 
         if (col.gameObject.name == "GenerationTrigger")
         {
-            gm.GenerateEnviroment(col.transform.position.y+5, true);
+            gm.GenerateEnvironment(col.transform.position.y+5, true);
         }
     }
 
     #endregion
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.name == "DeleteTrigger")
+        {
+            gm.GameOver();
+            gameOver = true;
+            this.transform.Translate(Vector2.down* 10);
+        }
+    }
 
     void ReplaceBack()
     {
