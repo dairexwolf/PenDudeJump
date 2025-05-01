@@ -71,7 +71,9 @@ public class PlayerManager : MonoBehaviour
             if (platform != null)
             {
                 platform.AtTouch(this);
-                this.GetComponent<Animator>().SetTrigger("Jump");
+                this.GetComponent<Animator>().ResetTrigger("Jumping");
+                this.GetComponent<Animator>().SetTrigger("Jumping");
+                
             }
         }
 
