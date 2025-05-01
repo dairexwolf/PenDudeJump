@@ -3,6 +3,7 @@ using UnityEngine;
 public class CameraScript : MonoBehaviour
 {
     [SerializeField] GameObject player;
+    [SerializeField] GameManager gameManager;
 
     private PlayerManager pm;
 
@@ -17,6 +18,10 @@ public class CameraScript : MonoBehaviour
         if (pm.GetCurrentVelocity().y > 0 && player.transform.position.y > this.transform.position.y)
         {
             this.transform.Translate(pm.GetCurrentVelocity() * Time.deltaTime);
+            if (this.transform.position.y > transform.position.y - 1f)
+            {
+                gameManager.AddToScore(1);
+            }
         }
     }
 }

@@ -11,6 +11,8 @@ public class PlayerManager : MonoBehaviour
     [SerializeField] private float force = 10f;             // Прыжок персонажа
     [SerializeField] private float gravityMax = 10f;        // Максимальная тяга вниз
 
+    [SerializeField] Transform cameraTransform;
+
     private Vector2 curVel;                                 // Текущая скорость
     private Vector2 down;                                   // Максимальная скорость
 
@@ -58,10 +60,10 @@ public class PlayerManager : MonoBehaviour
         if (col.gameObject.tag == "Platform" && curVel.y < 0)
         {
             curVel.y = force;
-            if (this.transform.position.y > 0)
-            {
-                gm.AddToScore((int)transform.position.y + 5);
-            }
+            //if (this.transform.position.y > cameraTransform.position.y-1f)
+            //{
+            //    gm.AddToScore((int)transform.position.y);
+            //}
         }
 
         if (col.gameObject.name == "GenerationTrigger")

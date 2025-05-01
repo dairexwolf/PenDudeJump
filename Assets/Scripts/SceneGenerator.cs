@@ -6,12 +6,11 @@ using UnityEngine;
 /// </summary>
 public class SceneGenerator : MonoBehaviour
 {
-
-    private int score;
-
+    [Header("Necessary objects")]
     [SerializeField] GameObject commonPlatform;
     [SerializeField] GameObject generationTrigger;
 
+    [Header("Environment settings")]
     [SerializeField] int maxPlatforms = 5;
     [SerializeField] int maxEnemies = 2;
 
@@ -32,31 +31,28 @@ public class SceneGenerator : MonoBehaviour
         Generate(3f, false);
     }
 
-
-
-
     public void Generate(float up, bool moveTriggers)
     {
-        int avaiblePlatforms = curPlatforms;
+        int availablePlatforms = curPlatforms;
         List<int> levelLayers = new List<int>() { 0, 0, 0, 0, 0 };
 
         int[] range = new[] { Random.Range(0, 2), Random.Range(3, 5), Random.Range(2, 4) };
 
-        for (int i = Random.Range(0, 3); avaiblePlatforms > 3; avaiblePlatforms--)
+        for (int i = Random.Range(0, 3); availablePlatforms > 3; availablePlatforms--)
         {
             range = new[] { Random.Range(0, 2), Random.Range(3, 5), Random.Range(2, 4) };
             if (levelLayers[range[i]] < 3)
                 levelLayers[range[i]]++;
             else
             {
-                avaiblePlatforms++;
+                availablePlatforms++;
                 continue;
             }
         }
 
         range = new[] { Random.Range(0, 2), Random.Range(3, 5), Random.Range(2, 4) };
 
-        for (int i = 0; i < avaiblePlatforms; i++)
+        for (int i = 0; i < availablePlatforms; i++)
         {
             if (levelLayers[range[i]] < 3)
                 levelLayers[range[i]]++;
@@ -90,6 +86,12 @@ public class SceneGenerator : MonoBehaviour
             generationTrigger.transform.Translate(newCoords);
         }
 
+    }
+
+    public void ReduceNumberOfPlatforms()
+    {
+        if (curPlatforms > 2)
+            curPlatforms--;
     }
 
     public List<GameObject> GetPlatforms()

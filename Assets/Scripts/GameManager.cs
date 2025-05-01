@@ -33,13 +33,16 @@ public class GameManager : MonoBehaviour
         return score;
     }
 
+
+
     public void AddToScore(int i)
     {
         score += i;
         genScore += i;
-        if (genScore > 5)
+        if (genScore > 500)
         {
-            genScore -= 5;
+            genScore -= 500;
+            sceneGen.ReduceNumberOfPlatforms();
         }
     }
 }
