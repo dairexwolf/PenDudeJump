@@ -11,10 +11,13 @@ public class PlayerManager : MonoBehaviour
     [SerializeField] public float force = 10f;             // Прыжок персонажа
     [SerializeField] private float gravityMax = 10f;        // Максимальная тяга вниз
 
+
     [SerializeField] Transform cameraTransform;
+    [SerializeField] private AudioSource[] audioSource;
 
     public Vector2 curVel;                                 // Текущая скорость
     private Vector2 down;                                   // Максимальная скорость
+
 
     private GameManager gm;
 
@@ -31,6 +34,7 @@ public class PlayerManager : MonoBehaviour
     {
         curVel = Vector2.zero;
         down = Vector2.down * gravityMax;
+        GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -73,7 +77,8 @@ public class PlayerManager : MonoBehaviour
                 platform.AtTouch(this);
                 this.GetComponent<Animator>().ResetTrigger("Jumping");
                 this.GetComponent<Animator>().SetTrigger("Jumping");
-                
+                audioSource[0].Play();
+                audioSource[1].Play();
             }
         }
 
@@ -92,6 +97,8 @@ public class PlayerManager : MonoBehaviour
             gm.GameOver();
             gameOver = true;
             this.transform.Translate(Vector2.down * 10);
+            audioSource[2].Play();
+            audioSource[3].Stop();
         }
     }
 

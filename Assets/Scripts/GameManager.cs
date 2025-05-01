@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -10,6 +11,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private SceneGenerator sceneGen;
     [SerializeField] private PlayerManager playerMg;
     [SerializeField] private GameObject gameOverMessage;
+    [SerializeField] private TextMeshProUGUI scoreText;
 
     public void GenerateEnvironment(float up, bool moveTriggers)
     {
@@ -35,5 +37,7 @@ public class GameManager : MonoBehaviour
             genScore -= 500;
             sceneGen.ReduceNumberOfPlatforms();
         }
+
+        scoreText.text = score.ToString();
     }
 }
