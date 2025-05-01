@@ -922,7 +922,39 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      corrector tape_0: 2122409640325436191
+      corrector tape_1: 2742038131845227184
+      corrector tape_10: 6380586016346129602
+      corrector tape_11: 555765835142496358
+      corrector tape_12: -2821451565928443344
+      corrector tape_13: -8909070162411084141
+      corrector tape_14: 5728041429726469784
+      corrector tape_15: 4181358128449802334
+      corrector tape_16: 8249115793595073598
+      corrector tape_17: -1325987450150341072
+      corrector tape_18: 1330771786342101234
+      corrector tape_19: 4241754114481117970
+      corrector tape_2: 4063849761171352715
+      corrector tape_20: -7527376305226009154
+      corrector tape_21: 7835613361594507778
+      corrector tape_22: 233265432106711574
+      corrector tape_23: 3296288701236344998
+      corrector tape_24: -1104283536200685799
+      corrector tape_25: -7587854916742739342
+      corrector tape_26: 540272481550746871
+      corrector tape_27: -2016961939244807357
+      corrector tape_28: -250298078163142229
+      corrector tape_29: -15914916920009726
+      corrector tape_3: -1378985327323380442
+      corrector tape_30: -1897057749117771340
+      corrector tape_31: -7985135036457058229
+      corrector tape_4: 1000958585217109349
+      corrector tape_5: 4306799109832661388
+      corrector tape_6: -7066266564534250082
+      corrector tape_7: -2525561268998299834
+      corrector tape_8: 3865430123268156104
+      corrector tape_9: -4870222950702495943
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

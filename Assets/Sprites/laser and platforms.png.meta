@@ -314,13 +314,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: laser and platforms_0
+      name: laser_off
       rect:
         serializedVersion: 2
         x: 0
-        y: 1390
-        width: 494
-        height: 269
+        y: 1408
+        width: 704
+        height: 352
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -336,35 +336,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: laser and platforms_1
+      name: laser_prepare
       rect:
         serializedVersion: 2
-        x: 475
-        y: 1392
-        width: 374
-        height: 215
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1bea6b55f62e80790800000000000000
-      internalID: -7563546606361465167
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: laser and platforms_2
-      rect:
-        serializedVersion: 2
-        x: 484
-        y: 1586
-        width: 10
-        height: 8
+        x: 704
+        y: 1408
+        width: 704
+        height: 352
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -380,57 +358,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: laser and platforms_3
+      name: laser_fired
       rect:
         serializedVersion: 2
-        x: 493
-        y: 1587
-        width: 15
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4400f3ac3a7a8cfa0800000000000000
-      internalID: -5780185799815397308
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: laser and platforms_4
-      rect:
-        serializedVersion: 2
-        x: 500
-        y: 1583
-        width: 12
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 40be10b5157a801a0800000000000000
-      internalID: -6843035665928426748
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: laser and platforms_5
-      rect:
-        serializedVersion: 2
-        x: 507
-        y: 1594
-        width: 13
-        height: 7
+        x: 0
+        y: 1056
+        width: 1760
+        height: 352
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -446,101 +380,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: laser and platforms_6
+      name: Platform_slow
       rect:
         serializedVersion: 2
-        x: 846
-        y: 1397
-        width: 472
-        height: 269
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a497c3d6c68a30580800000000000000
-      internalID: -8862054458092390070
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: laser and platforms_7
-      rect:
-        serializedVersion: 2
-        x: 495
-        y: 1576
-        width: 14
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ea81284eac7111a60800000000000000
-      internalID: 7642916202809006254
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: laser and platforms_8
-      rect:
-        serializedVersion: 2
-        x: 511
-        y: 1580
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 46b5a0cf6366cdcd0800000000000000
-      internalID: -2532036504146257052
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: laser and platforms_9
-      rect:
-        serializedVersion: 2
-        x: 601
-        y: 1534
-        width: 6
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0f635fbdfb4b444c0800000000000000
-      internalID: -4304116607737317648
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: laser and platforms_10
-      rect:
-        serializedVersion: 2
-        x: 1321
-        y: 1528
-        width: 79
-        height: 36
+        x: 0
+        y: 704
+        width: 352
+        height: 352
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -556,13 +402,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: laser and platforms_11
+      name: platform
       rect:
         serializedVersion: 2
-        x: 695
-        y: 1447
-        width: 28
-        height: 33
+        x: 352
+        y: 704
+        width: 352
+        height: 352
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -578,13 +424,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: laser and platforms_12
+      name: platform_ice
       rect:
         serializedVersion: 2
-        x: 1189
-        y: 1429
-        width: 11
-        height: 22
+        x: 704
+        y: 704
+        width: 352
+        height: 352
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -600,35 +446,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: laser and platforms_13
+      name: platform_wanishing
       rect:
         serializedVersion: 2
-        x: 1444
-        y: 1420
-        width: 36
-        height: 67
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2df0030b85bd5fe10800000000000000
-      internalID: 2230930364391493586
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: laser and platforms_14
-      rect:
-        serializedVersion: 2
-        x: 337
-        y: 1416
-        width: 14
-        height: 16
+        x: 0
+        y: 352
+        width: 352
+        height: 352
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -644,13 +468,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: laser and platforms_15
+      name: platform_trap
       rect:
         serializedVersion: 2
-        x: 439
-        y: 1422
-        width: 6
-        height: 8
+        x: 352
+        y: 352
+        width: 352
+        height: 352
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -666,13 +490,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: laser and platforms_16
+      name: platform_trap_part_1
       rect:
         serializedVersion: 2
-        x: 456
-        y: 1416
-        width: 8
-        height: 15
+        x: 704
+        y: 352
+        width: 352
+        height: 352
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -688,13 +512,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: laser and platforms_17
+      name: platform_trap_part_2
       rect:
         serializedVersion: 2
-        x: 1185
-        y: 1426
-        width: 6
-        height: 6
+        x: 1056
+        y: 352
+        width: 352
+        height: 352
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -710,13 +534,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: laser and platforms_18
+      name: platform_moving
       rect:
         serializedVersion: 2
-        x: 1206
-        y: 1430
-        width: 9
-        height: 8
+        x: 0
+        y: 0
+        width: 352
+        height: 352
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -731,1089 +555,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: laser and platforms_19
-      rect:
-        serializedVersion: 2
-        x: 1362
-        y: 1427
-        width: 8
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 717da1ce8bbe048b0800000000000000
-      internalID: -5169873192753637609
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: laser and platforms_20
-      rect:
-        serializedVersion: 2
-        x: 435
-        y: 1419
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a66206d737b24e7f0800000000000000
-      internalID: -584294276626635158
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: laser and platforms_21
-      rect:
-        serializedVersion: 2
-        x: 612
-        y: 1421
-        width: 7
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 96caf31dcf9f10d10800000000000000
-      internalID: 2090226566314306665
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: laser and platforms_22
-      rect:
-        serializedVersion: 2
-        x: 1096
-        y: 1423
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1ca03de962a81b720800000000000000
-      internalID: 2860219136834996929
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: laser and platforms_23
-      rect:
-        serializedVersion: 2
-        x: 1106
-        y: 1422
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 57ae1781bf8403cf0800000000000000
-      internalID: -274639333985490315
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: laser and platforms_24
-      rect:
-        serializedVersion: 2
-        x: 1363
-        y: 1419
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: db7aa05c5b2aa93b0800000000000000
-      internalID: -5504908692928419907
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: laser and platforms_25
-      rect:
-        serializedVersion: 2
-        x: 1381
-        y: 1419
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7a25639ae3e9fed00800000000000000
-      internalID: 1004195233890980519
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: laser and platforms_26
-      rect:
-        serializedVersion: 2
-        x: 356
-        y: 1415
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 37e19d159842b1b00800000000000000
-      internalID: 800273530990698099
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: laser and platforms_27
-      rect:
-        serializedVersion: 2
-        x: 612
-        y: 1413
-        width: 7
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bc0058272a9c8d4e0800000000000000
-      internalID: -1956592338549276469
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: laser and platforms_28
-      rect:
-        serializedVersion: 2
-        x: 694
-        y: 1413
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0f476bdba54ce9cf0800000000000000
-      internalID: -243541435822476048
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: laser and platforms_29
-      rect:
-        serializedVersion: 2
-        x: 1197
-        y: 1409
-        width: 7
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f8b8326128cb6f0b0800000000000000
-      internalID: -5695157411860214897
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: laser and platforms_30
-      rect:
-        serializedVersion: 2
-        x: 1323
-        y: 1400
-        width: 8
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4088a39adc7a1d520800000000000000
-      internalID: 2725143751285180420
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: laser and platforms_31
-      rect:
-        serializedVersion: 2
-        x: 1354
-        y: 1398
-        width: 22
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 686e928799e5c6b00800000000000000
-      internalID: 823136845140977286
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: laser and platforms_32
-      rect:
-        serializedVersion: 2
-        x: 1432
-        y: 1414
-        width: 7
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: eb5dcac99c1c40f10800000000000000
-      internalID: 2235124386743768510
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: laser and platforms_33
-      rect:
-        serializedVersion: 2
-        x: 447
-        y: 1402
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5a33bca35afdc30d0800000000000000
-      internalID: -3441630114468908123
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: laser and platforms_34
-      rect:
-        serializedVersion: 2
-        x: 618
-        y: 1403
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 307fab44590a08250800000000000000
-      internalID: 5944928071092729603
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: laser and platforms_35
-      rect:
-        serializedVersion: 2
-        x: 681
-        y: 1408
-        width: 7
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 124f2740bc8d9bfe0800000000000000
-      internalID: -1172667861488700383
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: laser and platforms_36
-      rect:
-        serializedVersion: 2
-        x: 981
-        y: 1406
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0a3de0be56eace6c0800000000000000
-      internalID: -4112720606937558112
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: laser and platforms_37
-      rect:
-        serializedVersion: 2
-        x: 1271
-        y: 1403
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b07c827ae4d433110800000000000000
-      internalID: 1239419322664273675
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: laser and platforms_38
-      rect:
-        serializedVersion: 2
-        x: 520
-        y: 1397
-        width: 7
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7906081fa9e5a5a80800000000000000
-      internalID: -8477359329001840489
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: laser and platforms_39
-      rect:
-        serializedVersion: 2
-        x: 572
-        y: 1394
-        width: 7
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1e809cc8a2b751310800000000000000
-      internalID: 1375140683912382689
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: laser and platforms_40
-      rect:
-        serializedVersion: 2
-        x: 11
-        y: 953
-        width: 1723
-        height: 329
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7e031ddb357a77b00800000000000000
-      internalID: 826313034754502887
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: laser and platforms_41
-      rect:
-        serializedVersion: 2
-        x: 230
-        y: 1022
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b84a8aaf0755073c0800000000000000
-      internalID: -4363894095191956341
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: laser and platforms_42
-      rect:
-        serializedVersion: 2
-        x: 344
-        y: 1039
-        width: 7
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 636cc802fc8e623d0800000000000000
-      internalID: -3231639706289781194
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: laser and platforms_43
-      rect:
-        serializedVersion: 2
-        x: 355
-        y: 1038
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1c3a67fa85caa38f0800000000000000
-      internalID: -559945706753317951
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: laser and platforms_44
-      rect:
-        serializedVersion: 2
-        x: 434
-        y: 1042
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 40c3bf4f1956a7bb0800000000000000
-      internalID: -4937522363903558652
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: laser and platforms_45
-      rect:
-        serializedVersion: 2
-        x: 438
-        y: 1045
-        width: 6
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 563a9b4a138a558b0800000000000000
-      internalID: -5164036466539912347
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: laser and platforms_46
-      rect:
-        serializedVersion: 2
-        x: 446
-        y: 1025
-        width: 7
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d939a81484f311570800000000000000
-      internalID: 8435593156611445661
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: laser and platforms_47
-      rect:
-        serializedVersion: 2
-        x: 455
-        y: 1046
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5867a4ac7adfb95e0800000000000000
-      internalID: -1901647520538659195
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: laser and platforms_48
-      rect:
-        serializedVersion: 2
-        x: 520
-        y: 1020
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 280f699ff70a27bc0800000000000000
-      internalID: -3786787865156456318
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: laser and platforms_49
-      rect:
-        serializedVersion: 2
-        x: 571
-        y: 1016
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 83501abe81e1c23d0800000000000000
-      internalID: -3230173740350241480
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: laser and platforms_50
-      rect:
-        serializedVersion: 2
-        x: 611
-        y: 1044
-        width: 7
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ace8d1a2e1b956990800000000000000
-      internalID: -7393332659400896822
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: laser and platforms_51
-      rect:
-        serializedVersion: 2
-        x: 612
-        y: 1036
-        width: 7
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 86f36f75852de1670800000000000000
-      internalID: 8511471622651527016
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: laser and platforms_52
-      rect:
-        serializedVersion: 2
-        x: 618
-        y: 1026
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1776ff58cdca3dcb0800000000000000
-      internalID: -4840335111352260751
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: laser and platforms_53
-      rect:
-        serializedVersion: 2
-        x: 630
-        y: 1035
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9b51a8298f2363650800000000000000
-      internalID: 6212208779195979193
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: laser and platforms_54
-      rect:
-        serializedVersion: 2
-        x: 681
-        y: 1031
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cbb4b25b141cb95b0800000000000000
-      internalID: -5360478443497894980
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: laser and platforms_55
-      rect:
-        serializedVersion: 2
-        x: 693
-        y: 1036
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ec8ec18c4a3bec600800000000000000
-      internalID: 490526929743309006
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: laser and platforms_56
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 845
-        width: 282
-        height: 82
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9359afd79aec59440800000000000000
-      internalID: 4942083393467356473
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: laser and platforms_57
-      rect:
-        serializedVersion: 2
-        x: 393
-        y: 843
-        width: 283
-        height: 67
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7a810496f64595490800000000000000
-      internalID: -7757076045685057369
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: laser and platforms_58
-      rect:
-        serializedVersion: 2
-        x: 751
-        y: 724
-        width: 276
-        height: 186
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 858bcddfc41469220800000000000000
-      internalID: 2492251242728568920
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: laser and platforms_59
-      rect:
-        serializedVersion: 2
-        x: 726
-        y: 691
-        width: 7
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2e89866d027783d80800000000000000
-      internalID: -8270729732746077982
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: laser and platforms_60
-      rect:
-        serializedVersion: 2
-        x: 1122
-        y: 474
-        width: 214
-        height: 259
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 593c8cdbe61ec8cf0800000000000000
-      internalID: -248576013665516651
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: laser and platforms_61
-      rect:
-        serializedVersion: 2
-        x: 518
-        y: 469
-        width: 152
-        height: 162
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c2284f697bc1df9e0800000000000000
-      internalID: -1586079918927347156
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: laser and platforms_62
-      rect:
-        serializedVersion: 2
-        x: 710
-        y: 609
-        width: 20
-        height: 79
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a54862473f08cb390800000000000000
-      internalID: -7801218671398452134
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: laser and platforms_63
-      rect:
-        serializedVersion: 2
-        x: 798
-        y: 484
-        width: 200
-        height: 147
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: eb83c3037fb215660800000000000000
-      internalID: 7372722405648382142
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: laser and platforms_64
-      rect:
-        serializedVersion: 2
-        x: 241
-        y: 565
-        width: 20
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 871e86056db66fcd0800000000000000
-      internalID: -2524711972878360200
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: laser and platforms_65
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 490
-        width: 283
-        height: 73
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cbd55ee88b2005540800000000000000
-      internalID: 4994494978448514492
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: laser and platforms_66
-      rect:
-        serializedVersion: 2
-        x: 390
-        y: 470
-        width: 141
-        height: 79
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a1c63150804588860800000000000000
-      internalID: 7532362770198785050
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: laser and platforms_67
-      rect:
-        serializedVersion: 2
-        x: 31
-        y: 148
-        width: 458
-        height: 67
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ecd87190c1e0c7480800000000000000
-      internalID: -8900223250016530994
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 00ad7cff19df5af4498a9dcc4fb7093c
     internalID: 0
     vertices: []
     indices: 
@@ -1822,7 +568,27 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Platform_slow: 8848255084297882786
+      laser and platforms_1: -7563546606361465167
+      laser and platforms_13: 2230930364391493586
+      laser and platforms_19: -5169873192753637609
+      laser and platforms_3: -5780185799815397308
+      laser and platforms_4: -6843035665928426748
+      laser and platforms_6: -8862054458092390070
+      laser and platforms_7: 7642916202809006254
+      laser and platforms_8: -2532036504146257052
+      laser and platforms_9: -4304116607737317648
+      laser_fired: -6308538712029205594
+      laser_off: 12938456112795476
+      laser_prepare: 1925379424988623184
+      platform: -7633368575023605237
+      platform_ice: -2360222640384015397
+      platform_moving: 6032490939642069310
+      platform_trap: -5564226424728039665
+      platform_trap_part_1: -7259980718254000531
+      platform_trap_part_2: 1759263859142721224
+      platform_wanishing: -7477276696506070376
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
