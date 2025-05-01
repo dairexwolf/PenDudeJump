@@ -422,7 +422,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      clouds and black hole_0: -3967699575689839722
+      clouds and black hole_1: -2162499571142277091
+      clouds and black hole_10: -882666480916852213
+      clouds and black hole_11: 5934950862624352775
+      clouds and black hole_2: -6049150931785908221
+      clouds and black hole_3: 3524525211629761568
+      clouds and black hole_4: -751855174529486468
+      clouds and black hole_5: -2769347445705489120
+      clouds and black hole_6: 3955552214378187865
+      clouds and black hole_7: -8972065390900431981
+      clouds and black hole_8: -8432253677458684878
+      clouds and black hole_9: 6760762738972309485
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

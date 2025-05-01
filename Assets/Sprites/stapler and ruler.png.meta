@@ -347,7 +347,16 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      stapler and ruler_0: -3818910097384613987
+      stapler and ruler_1: -6044930890057666114
+      stapler and ruler_2: 9094983851934012479
+      stapler and ruler_3: 2439034646954513942
+      stapler and ruler_4: -8030962490667366690
+      stapler and ruler_5: -2660795431114217455
+      stapler and ruler_6: 6369387975774348614
+      stapler and ruler_7: -7116875115766074062
+      stapler and ruler_8: -4546953691300160958
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
